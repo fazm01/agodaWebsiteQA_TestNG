@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77196" started-at="2023-04-20T04:47:06Z" finished-at="2023-04-20T04:48:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77196" started-at="2023-04-20T04:47:06Z" finished-at="2023-04-20T04:48:23Z">
+      <class name="testng_farid.TC09_Private_Stay_Booking">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng_farid.TC09_Private_Stay_Booking@3e10dc6]" name="beforeMethod" is-config="true" duration-ms="4131" started-at="2023-04-20T04:47:06Z" finished-at="2023-04-20T04:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testng_farid.TC09_Private_Stay_Booking@3e10dc6]" name="f" duration-ms="71203" started-at="2023-04-20T04:47:10Z" finished-at="2023-04-20T04:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng_farid.TC09_Private_Stay_Booking@3e10dc6]" name="afterMethod" is-config="true" duration-ms="1824" started-at="2023-04-20T04:48:21Z" finished-at="2023-04-20T04:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testng_farid.TC09_Private_Stay_Booking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

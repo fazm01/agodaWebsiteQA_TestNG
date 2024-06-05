@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_farid">
+  <test thread-count="5" name="Test_farid">
+    <classes>
+      <class name="testng_suites_farid.TC13_Remove_From_Cart"/>
+      <class name="testng_suites_farid.TC11_Sort_Breakfast_Included"/>
+      <class name="testng_suites_farid.TC12_Add_To_Cart"/>
+    </classes>
+  </test> <!-- Test_farid -->
+</suite> <!-- Suite_farid -->

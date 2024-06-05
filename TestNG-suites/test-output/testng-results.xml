@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite_farid" duration-ms="181366" started-at="2023-04-20T02:10:21Z" finished-at="2023-04-20T02:13:22Z">
+    <groups>
+    </groups>
+    <test name="Test_farid" duration-ms="181366" started-at="2023-04-20T02:10:21Z" finished-at="2023-04-20T02:13:22Z">
+      <class name="testng_suites_farid.TC12_Add_To_Cart">
+        <test-method status="PASS" signature="beforMethod()[pri:0, instance:testng_suites_farid.TC12_Add_To_Cart@3b220bcb]" name="beforMethod" is-config="true" duration-ms="1956" started-at="2023-04-20T02:12:25Z" finished-at="2023-04-20T02:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testng_suites_farid.TC12_Add_To_Cart@3b220bcb]" name="f" duration-ms="53775" started-at="2023-04-20T02:12:27Z" finished-at="2023-04-20T02:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng_suites_farid.TC12_Add_To_Cart@3b220bcb]" name="afterMethod" is-config="true" duration-ms="1011" started-at="2023-04-20T02:13:21Z" finished-at="2023-04-20T02:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testng_suites_farid.TC12_Add_To_Cart -->
+      <class name="testng_suites_farid.TC11_Sort_Breakfast_Included">
+        <test-method status="PASS" signature="f()[pri:0, instance:testng_suites_farid.TC11_Sort_Breakfast_Included@16ecee1]" name="f" duration-ms="40396" started-at="2023-04-20T02:11:45Z" finished-at="2023-04-20T02:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testng_suites_farid.TC11_Sort_Breakfast_Included -->
+      <class name="testng_suites_farid.TC13_Remove_From_Cart">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testng_suites_farid.TC13_Remove_From_Cart@efde75f]" name="beforeSuite" is-config="true" duration-ms="4451" started-at="2023-04-20T02:10:16Z" finished-at="2023-04-20T02:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforMethod()[pri:0, instance:testng_suites_farid.TC13_Remove_From_Cart@efde75f]" name="beforMethod" is-config="true" duration-ms="2244" started-at="2023-04-20T02:10:21Z" finished-at="2023-04-20T02:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng_suites_farid.TC13_Remove_From_Cart@efde75f]" name="beforeMethod" is-config="true" duration-ms="4597" started-at="2023-04-20T02:10:23Z" finished-at="2023-04-20T02:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testng_suites_farid.TC13_Remove_From_Cart@efde75f]" name="f" duration-ms="76409" started-at="2023-04-20T02:10:28Z" finished-at="2023-04-20T02:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng_suites_farid.TC13_Remove_From_Cart@efde75f]" name="afterMethod" is-config="true" duration-ms="944" started-at="2023-04-20T02:11:44Z" finished-at="2023-04-20T02:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="afterSuite()[pri:0, instance:testng_suites_farid.TC13_Remove_From_Cart@efde75f]" name="afterSuite" is-config="true" duration-ms="9" started-at="2023-04-20T02:13:22Z" finished-at="2023-04-20T02:13:22Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Farid\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49161/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\Farid\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49161/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:419)
+at testng_suites_farid.TC11_Sort_Breakfast_Included.afterSuite(TC11_Sort_Breakfast_Included.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testng_suites_farid.TC13_Remove_From_Cart -->
+    </test> <!-- Test_farid -->
+  </suite> <!-- Suite_farid -->
+</testng-results>

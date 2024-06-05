@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_farid]">
+  <test thread-count="5" name="Test_farid(failed)">
+    <classes>
+      <class name="testng_suites_farid.TC12_Add_To_Cart">
+        <methods>
+          <include name="f"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforMethod"/>
+        </methods>
+      </class> <!-- testng_suites_farid.TC12_Add_To_Cart -->
+    </classes>
+  </test> <!-- Test_farid(failed) -->
+</suite> <!-- Failed suite [Suite_farid] -->

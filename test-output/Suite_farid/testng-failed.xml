@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_farid]">
+  <test thread-count="5" name="Test_farid(failed)">
+    <classes>
+      <class name="testng_farid.TC12_Add_To_Cart">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforMethod"/>
+          <include name="afterMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testng_farid.TC12_Add_To_Cart -->
+      <class name="testng_farid.TC10_Book_Two_Hotels">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testng_farid.TC10_Book_Two_Hotels -->
+    </classes>
+  </test> <!-- Test_farid(failed) -->
+</suite> <!-- Failed suite [Suite_farid] -->
